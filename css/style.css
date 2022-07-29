@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@600&display=swap');
 
 *,
 *::before,
@@ -62,6 +62,7 @@ select {
   /* Typography */
   --primary-font: 'Poppins', sans-serif;
   --secondary-font: 'Open Sans', sans-serif;
+  --text-white: #fff;
 }
 
 body {
@@ -101,6 +102,38 @@ nav a.nav-btn {
   color: var(--very-dark-cyan);
   font-weight: bold;
   background-color: var(--bg-white);
-  padding: 0.7rem 3.2rem;
+  padding: 0.8rem 3.1rem;
   border-radius: 30px;
+}
+
+.showcase-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0 1.5rem;
+}
+
+.showcase-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 50px;
+  color: var(--very-dark-cyan);
+}
+
+.showcase-content p {
+  color: var(--very-dark-cyan);
+  font-weight: 600;
+  padding: 2rem 0 2rem;
+  line-height: 26px;
+}
+
+.showcase-content .main-btn {
+  display: inline-block;
+  color: var(--text-white);
+  background-color: var(--pink);
+  padding: 1rem 3.2rem;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
 }
