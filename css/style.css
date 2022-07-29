@@ -90,6 +90,11 @@ h3 {
   border-radius: 30px;
   font-size: 14px;
   font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #ff99da;
 }
 
 /* Header */
@@ -119,6 +124,11 @@ nav a.nav-btn {
   background-color: var(--bg-white);
   padding: 0.8rem 3.1rem;
   border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+nav a.nav-btn:hover {
+  color: #999999;
 }
 
 .showcase-wrapper {
@@ -256,13 +266,15 @@ footer {
   border: 1px solid var(--bg-white);
   border-radius: 50%;
   padding: 4px 7px;
-  margin-right: 5px;
+  margin-right: 10px;
   background-color: transparent;
+  transition: 0.3s ease;
 }
 
 .social-icon a i {
   color: var(--text-white);
   font-size: 13px;
+  transition: 0.3s ease;
 }
 
 .social-icon a:hover {
