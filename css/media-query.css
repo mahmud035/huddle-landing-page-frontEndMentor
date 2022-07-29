@@ -13,6 +13,37 @@
     padding: 2.2rem 0 2.2rem;
     width: 90%;
   }
+
+  /* Main Section */
+  .main-container .card {
+    gap: 5rem;
+    padding: 3rem 2.5rem 3rem 5rem;
+  }
+
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card-1 p,
+  .card-3 p {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Main Section */
+  .main-container .card {
+    gap: 2rem;
+    padding: 2.5rem;
+  }
+
+  .card h2 {
+    font-size: 1.7rem;
+  }
+
+  .card-2 .card-text {
+    padding-left: 1rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -32,6 +63,24 @@
   .showcase-content p {
     padding: 2.2rem 0 2.2rem;
     width: 90%;
+  }
+
+  /* Main Section */
+  .main-container .card {
+    gap: 2rem;
+    padding: 2.5rem 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Main Section */
+  .card h2 {
+    font-size: 1.6rem;
+    line-height: 32px;
   }
 }
 
@@ -72,7 +121,6 @@
     flex-direction: column;
     gap: 3rem;
     padding: 3rem 2rem;
-    margin-bottom: 2rem;
   }
 
   .card h2 {
