@@ -1,5 +1,5 @@
 @media (max-width: 1340px) {
-  /* Header */
+  /** Header */
   .showcase-wrapper {
     gap: 2rem;
   }
@@ -14,7 +14,7 @@
     width: 90%;
   }
 
-  /* Main Section */
+  /** Main Section */
   .main-container .card {
     gap: 5rem;
     padding: 3rem 2.5rem 3rem 5rem;
@@ -31,7 +31,7 @@
 }
 
 @media (max-width: 1200px) {
-  /* Main Section */
+  /** Main Section */
   .main-container .card {
     gap: 2rem;
     padding: 2.5rem;
@@ -45,7 +45,7 @@
     padding-left: 1rem;
   }
 
-  /* Community Card */
+  /** Community Card */
   .community-card {
     max-width: 85%;
     padding: 3rem 1.5rem 2rem;
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 991px) {
-  /* Header */
+  /** Header */
   .showcase-wrapper {
     flex-direction: column;
     gap: 3rem;
@@ -71,7 +71,7 @@
     width: 90%;
   }
 
-  /* Main Section */
+  /** Main Section */
   .main-container .card {
     gap: 2rem;
     padding: 2.5rem 2rem;
@@ -83,22 +83,39 @@
 }
 
 @media (max-width: 767px) {
-  /* Main Section */
+  /** Main Section */
   .card h2 {
     font-size: 1.6rem;
     line-height: 32px;
   }
 
-  /* Community Card */
+  /** Community Card */
   .community-card {
     max-width: 100%;
     padding: 3rem 1rem 2rem;
   }
 }
 
+@media (min-width: 577px) and (max-width: 1425px) {
+  /** Footer */
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 5rem;
+  }
+
+  .footer-logo img {
+    max-width: 200px;
+  }
+
+  .different-link {
+    justify-self: start;
+  }
+}
+
 @media (max-width: 576px) {
-  /* Header */
-  nav .logo {
+  /** Header */
+  nav .logo,
+  .footer-logo img {
     max-width: 140px;
   }
 
@@ -123,7 +140,7 @@
     width: 100%;
   }
 
-  /* Main Section */
+  /** Main Section */
   .main-container {
     padding: 3rem 0;
     text-align: center;
@@ -154,8 +171,22 @@
     order: 1;
   }
 
-  /* Community Card */
+  /** Community Card */
   .community-card h2 {
     font-size: 1.5rem;
+  }
+
+  /** Footer */
+  .footer-content {
+    padding-top: 1.5rem;
+  }
+
+  .different-link {
+    justify-self: start;
+  }
+
+  .social-icon-and-copyright {
+    text-align: center;
+    gap: 1.5rem;
   }
 }
