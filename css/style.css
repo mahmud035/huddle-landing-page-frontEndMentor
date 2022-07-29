@@ -82,6 +82,16 @@ h3 {
   margin-inline: auto;
 }
 
+.main-btn {
+  display: inline-block;
+  color: var(--text-white);
+  background-color: var(--pink);
+  padding: 1rem 3.2rem;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 /* Header */
 header {
   min-height: 100vh;
@@ -135,23 +145,13 @@ nav a.nav-btn {
   width: 90%;
 }
 
-.showcase-content .main-btn {
-  display: inline-block;
-  color: var(--text-white);
-  background-color: var(--pink);
-  padding: 1rem 3.2rem;
-  border-radius: 30px;
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .showcase-img img {
   height: 100%;
 }
 
 /* Main Section */
 .main-container {
-  padding: 10rem 0;
+  padding: 10rem 0 0;
 }
 
 .main-container .card {
@@ -180,4 +180,22 @@ nav a.nav-btn {
 .card-1 p,
 .card-3 p {
   width: 90%;
+}
+
+/* Community Card */
+.community-card {
+  max-width: 50%;
+  margin-inline: auto;
+  padding: 3rem 4rem 2rem;
+  margin-top: 8rem;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.community-card h2 {
+  color: var(--very-dark-cyan);
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding-bottom: 1.3rem;
 }
