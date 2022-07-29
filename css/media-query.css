@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+  /* Header */
+  nav .logo {
+    max-width: 140px;
+  }
+
+  nav a.nav-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  .showcase-wrapper {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    padding: 3rem 0 2rem;
+  }
+
+  .showcase-content h1 {
+    font-size: 1.8rem;
+    line-height: 24px;
+  }
+
+  .showcase-content p {
+    padding: 2.2rem 0 2.2rem;
+    width: 100%;
+  }
+}
