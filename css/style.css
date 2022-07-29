@@ -152,6 +152,7 @@ nav a.nav-btn {
 /* Main Section */
 .main-container {
   padding: 10rem 0 0;
+  position: relative;
 }
 
 .main-container .card {
@@ -184,6 +185,7 @@ nav a.nav-btn {
 
 /* Community Card */
 .community-card {
+  bottom: -5rem;
   max-width: 60%;
   margin-inline: auto;
   padding: 3rem 4rem 2rem;
@@ -198,4 +200,86 @@ nav a.nav-btn {
   font-weight: 600;
   font-size: 1.8rem;
   padding-bottom: 1.3rem;
+}
+
+/* Footer */
+footer {
+  color: var(--text-white);
+  background-color: var(--very-dark-cyan);
+}
+
+.footer-wrapper {
+  padding: 15rem 0 3rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding-bottom: 1.2rem;
+}
+
+.location img {
+  margin-top: 5px;
+}
+
+.phone img,
+.email img {
+  margin-top: 3px;
+}
+
+.location p,
+.phone p,
+.email p {
+  font-size: 13.6px;
+  line-height: 1.4rem;
+}
+
+.different-link {
+  justify-self: center;
+}
+
+.different-link p {
+  padding-bottom: 1rem;
+}
+
+.social-icon a {
+  border: 1px solid var(--bg-white);
+  border-radius: 50%;
+  padding: 4px 7px;
+  margin-right: 5px;
+  background-color: transparent;
+}
+
+.social-icon a i {
+  color: var(--text-white);
+  font-size: 13px;
+}
+
+.social-icon a:hover {
+  border: 1px solid var(--pink);
+}
+
+.social-icon a:hover i {
+  color: var(--pink);
+}
+
+.social-icon-and-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.social-icon-and-copyright small {
+  font-size: 12px;
 }
