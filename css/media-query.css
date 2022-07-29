@@ -61,4 +61,36 @@
     padding: 2.2rem 0 2.2rem;
     width: 100%;
   }
+
+  /* Main Section */
+  .main-container {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .main-container .card {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    line-height: 26px;
+    font-size: 15px;
+  }
+
+  .card-1 p,
+  .card-3 p {
+    width: 100%;
+  }
+
+  .card-1 .card-text,
+  .card-3 .card-text {
+    order: 1;
+  }
 }

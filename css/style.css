@@ -155,12 +155,10 @@ nav a.nav-btn {
 }
 
 .main-container .card {
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 8rem;
-  /* padding: 3rem 2rem; */
   padding: 3rem 2rem 3rem 8rem;
   margin-bottom: 2rem;
   border-radius: 16px;
@@ -177,14 +175,6 @@ nav a.nav-btn {
   color: var(--grayish-blue);
   line-height: 30px;
   padding-top: 1rem;
-}
-
-.card-img {
-  height: 100%;
-}
-
-.card-img img {
-  max-height: 50%;
 }
 
 .card-1 p,
