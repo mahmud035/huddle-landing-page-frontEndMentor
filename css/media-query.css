@@ -44,6 +44,12 @@
   .card-2 .card-text {
     padding-left: 1rem;
   }
+
+  /* Community Card */
+  .community-card {
+    max-width: 85%;
+    padding: 3rem 1.5rem 2rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -81,6 +87,12 @@
   .card h2 {
     font-size: 1.6rem;
     line-height: 32px;
+  }
+
+  /* Community Card */
+  .community-card {
+    max-width: 100%;
+    padding: 3rem 1rem 2rem;
   }
 }
 
@@ -143,12 +155,6 @@
   }
 
   /* Community Card */
-  .community-card {
-    max-width: 100%;
-    padding: 3rem 1rem 2rem;
-    margin-top: 8rem;
-  }
-
   .community-card h2 {
     font-size: 1.5rem;
   }
