@@ -77,3 +77,12 @@ h3 {
   width: 80%;
   margin-inline: auto;
 }
+
+/* Header */
+header {
+  min-height: 100vh;
+  background: url(../images/bg-hero-desktop.svg) no-repeat;
+  background-color: var(--very-pale-cyan);
+  background-position: center center;
+  background-size: cover;
+}
